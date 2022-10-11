@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
+  "homepage": "http://Skywingy.github.io/Restaurant-Page",
   "predeploy": "npm run build",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
@@ -13,9 +16,9 @@
   "license": "MIT",
   "devDependencies": {
     "css-loader": "^6.7.1",
+    "gh-pages": "^4.0.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2"
-    
   }
 }

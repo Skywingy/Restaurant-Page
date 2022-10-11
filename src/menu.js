@@ -25,11 +25,7 @@ function render() {
 const main = document.createElement("main");
 main.classList.add("main");
 
-const bienvenidos = createHtmlElement(
-    "p",
-    null,
-    ["cursive", "golden"],
-    "Ichiraku"
+const bienvenidos = createHtmlElement("p", null, ["cursive", "golden"], "Ichiraku"
 );
 
 const title = createHtmlElement("h1", null, ["gray"], "Menu");
