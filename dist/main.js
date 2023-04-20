@@ -64,7 +64,7 @@ const p = (0,_index__WEBPACK_IMPORTED_MODULE_0__.createHtmlElement)(
     "p",
     null,
     ["golden"],
-    "Developed with ♥ by Nyam-Erdene"
+    "Developed with ♥ by Ariunbayar"
 );
 footer.appendChild(p);
 content.appendChild(footer);

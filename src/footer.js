@@ -6,7 +6,7 @@ const p = createHtmlElement(
     "p",
     null,
     ["golden"],
-    "Developed with ♥ by Nyam-Erdene"
+    "Developed with ♥ by Ariunbayar"
 );
 footer.appendChild(p);
 content.appendChild(footer);
